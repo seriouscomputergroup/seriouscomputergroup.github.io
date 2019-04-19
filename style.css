@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Avenir;
+}
+
+#page-header {
+	border: 10px black solid;
+	text-align: center;
+	position: sticky;
+	top: 0;
+}
+
+h1 {
+	display: inline-block;
+	text-align: center;
+	font-weight: 900;
+	white-space: nowrap;
+	font-size: calc(1.2em + 1.5vw);
+}
+
+pre {
+	font-family: monospace;
+	font-size: 3vw;
+	text-align: center;
+}
