@@ -23,7 +23,7 @@
 		color: #000;
 		position: relative;
 		top: 2%;
-		left: 10px;
+		left: 20px;
 	}
 
 	h1 {
@@ -91,7 +91,7 @@
 .project-title {
 	position: absolute;
 	bottom: 10%;
-	left: 10px;
+	left: 20px;
 	font-size: 2em;
 }
 
