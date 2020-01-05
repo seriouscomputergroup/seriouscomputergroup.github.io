@@ -54,7 +54,7 @@
 	}
 
 	.grid-text {
-		width: 50%;
+		flex: 1;
 		margin: 0 auto;
 		padding: 10px;
 		font-size: 1.5rem;
@@ -62,7 +62,7 @@
 		align-self: center;
 	}
 
-	.videoInsert {
+	.video-insert {
 		position: absolute; 
 		right: 0; 
 		bottom: 0;
