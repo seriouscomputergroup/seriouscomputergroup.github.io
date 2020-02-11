@@ -1,1 +1,0 @@
-# seriouscomputergroup.github.io
