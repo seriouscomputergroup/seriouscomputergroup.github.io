@@ -61,8 +61,8 @@ h1 {
 
 .ascii-header {
 	margin: 0;
-	font-family: "Source Code Pro", monospace;
-	font-weight: 900;
+	font-family: Menlo, Lucida Console, Consolas, Courier New, Courier,monospace;
+	/* font-weight: 900; */
 }
 
 nav {
