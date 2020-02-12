@@ -86,7 +86,7 @@ ul {
 }
 
 .content-top {
-	/* height: 100vh; */
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -193,7 +193,7 @@ a:hover {
 	display: grid;
 	/* position: absolute; */
 	/* top: 100vh; */
-	padding: 100vh 0px 0px 0px;
+	/* padding: 0px; */
 	grid-template-columns: 1fr;
 	grid-gap: 10px;
 	max-width: 100vw;
