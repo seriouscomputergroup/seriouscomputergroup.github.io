@@ -106,7 +106,7 @@ article, .container-video {
 
 /* links */
 
-a {
+/* a {
 	background: linear-gradient(to right, #30CFFF 0%, #FF0867 25%, #30CFFF 50%, #FF0867 75%, #30CFFF 100%);
 	background-size: 400% 400%;
 	background-clip: text;
@@ -114,6 +114,18 @@ a {
 	transition: color 2s;
 	color: inherit;
 	animation: grad1 20s linear infinite;
+}
+ */
+
+/* temp fix for iOS gradient issue */
+
+a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #880044;
 }
 
 li>a {
@@ -124,10 +136,10 @@ li>a.work {
 	text-decoration: none;
 	color: rgba(1., 1., 1., 1.);
 }
-
+/* 
 a:hover {
 	color: rgba(0, 0, 0, 0.2);
-}
+} */
 
 /* ascii art */
 
