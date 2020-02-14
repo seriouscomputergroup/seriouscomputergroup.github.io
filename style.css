@@ -57,7 +57,7 @@ h1 {
 
 .ascii-header {
 	margin: 0;
-	font-family: Menlo, "Roboto Mono", "Droid Sans Mono", "Lucida Console", Consolas, "Courier New", Courier, monospace;
+	/* white-space: pre; */
 }
 
 #ascii-abbreviation {
@@ -106,7 +106,7 @@ ul {
 	margin: 0px;
 }
 
-article, .ascii {
+article, .ascii-frontpage {
 	padding: 0px 8px 0px 180px;
 }
 
@@ -138,11 +138,19 @@ a:hover {
 
 /* ascii art */
 
-.ascii {
+.ascii, .ascii-work {
+	font-family: source-code-pro, Menlo, Roboto Mono, Lucida Console, Consolas, Courier new, Courier, monospace;
+	font-weight: 500;
+	line-height: 100%;
+}
+
+.ascii-work {
+	color: #ffffff;
+}
+
+.ascii-frontpage {
 	font-size: calc((100vw - 196px) * 0.02);
 	line-height:1;
-	/* padding: 0px 8px 0px 180px; */
-	/* position: static; */
 }
 
 #ascii-frontpage-1 {
@@ -235,6 +243,8 @@ a:hover {
 		flex-direction: row;
 		justify-content: flex-start;
 		white-space: nowrap;
+		padding: 0px 16px;
+		margin: 1px 0px 0px 0px;
 	}
 
 /* menu - background to float over text in portrait mode */
@@ -242,7 +252,7 @@ a:hover {
 	.menu-background {
 		position: fixed;
 		width: 100%;
-		height: calc(24px + 6vw);
+		height: calc(20px + 4.3vw);
 		background-color: #141517;
 	}
 
@@ -254,8 +264,8 @@ a:hover {
 
 	#ascii-abbreviation {
 		display: inline-block;
-		font-size: 1.7vw;
-		margin: 0.5vw 3vw 0px 0px;
+		font-size: 1.98vw;
+		margin: 0.75vw 3vw 0px 0px;
 	}
 
 	.ascii-title {
@@ -291,8 +301,8 @@ a:hover {
 
 /* ascii */
 
-		.ascii {
+		.ascii-frontpage {
 		font-size: calc((100vw - 32px) * 0.02);
-		padding: 12vw 16px 0px 16px;
+		padding: 10vw 16px 0px 16px;
 	}
 }
