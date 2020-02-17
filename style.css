@@ -120,7 +120,7 @@ a {
 	text-decoration: underline;
 	transition: color 2s;
 	color: inherit;
-	animation: grad1 20s linear infinite;
+	animation: frontpage-gradient 20s linear infinite;
 }
 
 li>a {
