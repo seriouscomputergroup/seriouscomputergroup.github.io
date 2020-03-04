@@ -107,15 +107,21 @@ ul {
 }
 
 article {
+	padding: 48px 16px 40px 180px;
+}
+
+.frontpage-text {
 	padding: 8px 8px 0px 180px;
 }
 
 .ascii-frontpage {
-	padding: 0px 8px 24px 180px;
+	padding: 0px 16px 24px 180px;
 }
 
 p {
 	max-width: 800px;
+	line-height: 1.6;
+	font-size: 1.1em;
 }
 
 /* links */
@@ -313,7 +319,12 @@ a:hover {
 
 	article {
 		margin: 0;
-		padding: 8px 16px 0px 16px;
+		padding: 48px 16px 40px 16px;
+	}
+	
+	.frontpage-text {
+		margin: 0;
+		padding: 0px 16px 0px 16px;
 	}
 
 /* ascii */
