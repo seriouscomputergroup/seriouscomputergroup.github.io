@@ -106,8 +106,16 @@ ul {
 	margin: 0px;
 }
 
-article, .ascii-frontpage {
-	padding: 0px 8px 0px 180px;
+article {
+	padding: 8px 8px 0px 180px;
+}
+
+.ascii-frontpage {
+	padding: 0px 8px 24px 180px;
+}
+
+p {
+	max-width: 800px;
 }
 
 /* links */
@@ -185,6 +193,15 @@ a:hover {
 
 /* videos */
 
+.video-row {
+	display: grid;
+	grid-template-columns: 180px auto;
+}
+
+/* .video-left-pad {
+	width: 180px;
+} */
+
 .video-insert {
 	position: absolute; 
 	right: 0; 
@@ -219,7 +236,7 @@ a:hover {
 	overflow: hidden;
 	padding-top: 56.25%;
 	position: relative;
-	margin: 0px 16px 0px 180px;
+	margin: 0px 16px 16px 0px;
 }
  
 .container-video iframe {
@@ -296,7 +313,7 @@ a:hover {
 
 	article {
 		margin: 0;
-		padding: 0px 16px;
+		padding: 8px 16px 0px 16px;
 	}
 
 /* ascii */
@@ -305,4 +322,10 @@ a:hover {
 		font-size: calc((100vw - 32px) * 0.02);
 		padding: 10vw 16px 0px 16px;
 	}
+
+/* videos */
+.video-row {
+	display: grid;
+	grid-template-columns: 0px auto;
+}
 }
