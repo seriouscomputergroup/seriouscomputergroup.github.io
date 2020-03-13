@@ -106,8 +106,8 @@ ul {
 	margin: 0px;
 }
 
-article {
-	padding: 48px 16px 40px 180px;
+article, .logo-row {
+	padding: 0px 16px 0px 180px;
 }
 
 .frontpage-text {
@@ -254,6 +254,18 @@ a:hover {
 	right:20px;
 	width: 100%;
 }
+
+/* CCA logo */
+
+.cca-logo {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.cca-logo>img {
+	width: 400px;
+}
 /* mobile */
 
 @media (max-width: 700px), (pointer: coarse) {
@@ -322,6 +334,11 @@ a:hover {
 		padding: 48px 16px 40px 16px;
 	}
 	
+	.logo-row {
+		margin: 0;
+		padding: 0px 16px 0px 16px;
+	}
+
 	.frontpage-text {
 		margin: 0;
 		padding: 0px 16px 0px 16px;
