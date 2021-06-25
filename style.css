@@ -21,6 +21,10 @@ body {
 	background-color: #141517;
 }
 
+.journal-bg {
+	background: #ffffff;
+}
+
 .about-text {
 	color: rgba(0, 0, 0, 1.0);
 }
@@ -35,7 +39,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: fixed;
-	width: 160px;
+	width: 180px;
 	height: 100vh;
 	padding: 16px 16px;
 	z-index: 5;
@@ -83,6 +87,9 @@ ul {
 	margin: 0;
 }
 
+.ig-logo {
+	height: 1.5em;
+}
 /* content */
 
 .main-grid {
@@ -106,7 +113,11 @@ ul {
 	margin: 0px;
 }
 
-article, .logo-row {
+article {
+	padding: 48px 16px 0px 180px;
+}
+
+.logo-row {
 	padding: 0px 16px 0px 180px;
 }
 
@@ -124,11 +135,15 @@ p {
 	font-size: 1.1em;
 }
 
+.videozone {
+	max-width: 800px;
+	width: 75vw;
+}
 /* links */
 
-a {
+a, pre {
 	background: linear-gradient(to right, #30CFFF 0%, #FF0867 25%, #30CFFF 50%, #FF0867 75%, #30CFFF 100%);
-	background-size: 400% 400%;
+	background-size: 200% 200%;
 	-webkit-background-clip: text;
 	/* -webkit-text-fill-color: transparent; */
 	text-decoration: underline;
@@ -137,7 +152,8 @@ a {
 	animation: frontpage-gradient 20s linear infinite;
 }
 
-li>a {
+
+.ascii-title > a, pre, li>a {
 	text-decoration: none;
 }
 
@@ -171,7 +187,7 @@ a:hover {
 	transform: rotate(1deg);
 	position: absolute;
 	background: linear-gradient(30deg, #30CFFF 0%, #FF0867 25%, #30CFFF 50%, #FF0867 75%, #30CFFF 100%);
-	background-size: 400% 400%;
+	background-size: 200% 200%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: frontpage-gradient 200s linear infinite;
@@ -181,7 +197,7 @@ a:hover {
 	transform: rotate(-1deg);
 	position: absolute;
 	background: linear-gradient(160deg, #FF0867 0%, #30CFFF 25%, #FF0867 50%, #30CFFF 75%, #FF0867 100%);
-	background-size: 400% 400%;
+	background-size: 200% 200%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: frontpage-gradient 200s linear infinite;
@@ -307,6 +323,10 @@ a:hover {
 		display: none;
 	}
 
+	.ascii-header > a, pre {
+		text-decoration: none;
+	}
+
 /* menu - navbar */
 
 	nav {
@@ -318,6 +338,10 @@ a:hover {
 		padding: 0 1vw;
 	}
 
+	.ig-logo {
+		height: 0.8em;
+		align
+	}
 /* content */
 
 	.content-top {
@@ -343,7 +367,10 @@ a:hover {
 		margin: 0;
 		padding: 0px 16px 0px 16px;
 	}
-
+	.videozone {
+		padding-top: calc(20px + 4.3vw);
+		width: 93vw;
+	}
 /* ascii */
 
 		.ascii-frontpage {
