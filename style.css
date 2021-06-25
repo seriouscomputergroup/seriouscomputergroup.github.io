@@ -369,6 +369,7 @@ a:hover {
 	}
 	.videozone {
 		padding-top: calc(20px + 4.3vw);
+		max-width: 93vw;
 		width: 93vw;
 	}
 /* ascii */
