@@ -106,6 +106,14 @@ ul {
 	/* margin: 0px; */
 }
 
+.content-work {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin: 0px; */
+}
+
 .content {
 	display: flex;
 	flex-direction: column;
