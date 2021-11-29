@@ -1,0 +1,81 @@
+/*********************************************/
+/* content                                   */
+/*********************************************/
+
+// .main-grid {
+// 	display: grid;
+// 	grid-template-columns: 100%;
+// 	/* padding: 8px; */
+// }
+
+.content-top {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin: 0px; */
+}
+
+.content-work {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin: 0px; */
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px;
+}
+
+// article {
+// 	padding: 48px 16px 0px 180px;
+// }
+
+// .logo-row {
+// 	padding: 0px 16px 0px 180px;
+// }
+
+// .frontpage-text {
+// 	padding: 8px 8px 0px 180px;
+// }
+
+// .ascii-frontpage {
+// 	padding: 0px 16px 24px 180px;
+// }
+
+p {
+	max-width: 800px;
+	line-height: 1.6;
+	font-size: 1.1em;
+}
+
+.videozone {
+	max-width: 800px;
+	width: 75vw;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+#nova-article {
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+#nova-article > section {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #f00;
+}
+
+#nova-technical {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}

@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"path": "css",
+		},
+		{
+			"path": "en",
+		},
+		{
+			"path": "fr",
+		},
+		{
+			"path": "icons",
+		},
+		{
+			"path": "img",
+		},
+		{
+			"path": "video",
+		},
+		{
+			"path": "sass",
+		},
+		{
+			"path": "sass-7in1"
+		},
+	],
+}
