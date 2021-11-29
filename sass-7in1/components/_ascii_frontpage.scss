@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the ASCII line graghic displayed
+// in the header.
+// -----------------------------------------------------------------------------
+
+.ascii-frontpage {
+  font-size: calc((100vw - 2em) * 0.02);
+  line-height: 1;
+  padding: 0;
+  z-index: 1;
+  @include respond-to ('medium') {
+    font-size: calc((100vw - 2em) * 0.016);
+  }
+}
+
+#ascii-frontpage-1 {
+  transform: rotate(1deg);
+  position: absolute;
+  background: linear-gradient(30deg, #30CFFF 0%, #FF0867 25%, #30CFFF 50%, #FF0867 75%, #30CFFF 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: frontpage-gradient 200s linear infinite;
+}
+
+#ascii-frontpage-2 {
+  transform: rotate(-1deg);
+  position: absolute;
+  background: linear-gradient(160deg, #FF0867 0%, #30CFFF 25%, #FF0867 50%, #30CFFF 75%, #FF0867 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: frontpage-gradient 200s linear infinite;
+}
+
+#ascii-frontpage-3 {
+  color: rgba(0, 0, 0, 0);
+  visibility: hidden;
+}
+
+@keyframes frontpage-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

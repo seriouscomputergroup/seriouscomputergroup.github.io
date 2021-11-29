@@ -1,0 +1,18 @@
+/*********************************************/
+/* grid layout                               */
+/*********************************************/
+.main-grid {
+  // background-color: #ff00ff;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-pad {
+  padding-left: 0;
+  padding-top: $menu-height;
+  @include respond-to ('medium') {
+    padding-left: $menu-width;
+    padding-top: 0;
+  }
+}

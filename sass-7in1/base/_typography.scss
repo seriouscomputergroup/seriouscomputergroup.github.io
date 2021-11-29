@@ -1,0 +1,25 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $text-font-stack;
+}
+
+/**
+ * Basic typography style for ASCII
+ */
+
+pre {
+  font-family: $ascii-font-stack;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+body.work-bg {
+  color: $work-text-color;
+}

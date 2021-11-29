@@ -1,0 +1,12 @@
+.frontpage-content {
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.content-text p {
+	max-width: 50em;
+}

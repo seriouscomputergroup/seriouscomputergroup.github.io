@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the ASCII SCG abbreviation 
+// component displayed in the header.
+// -----------------------------------------------------------------------------
+
+  #ascii-abbreviation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc($menu-height * 0.23);
+    z-index: 3;
+    @include respond-to('medium') {
+    	display: none;
+    }
+  }
+

@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.about-bg {
+    background: $about-bg-color;
+}
+
+.about-bg .menu-btn:checked ~ .menu {
+    visibility: visible;
+    z-index: 10;
+    background-color: $about-bg-color;
+  }
+
+.about-bg .menu-background {
+  background-color: $about-bg-color;
+}
