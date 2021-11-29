@@ -1,0 +1,405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"menu-",
+				"menu-background"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"spa",
+				"space-evenly"
+			],
+			[
+				"space",
+				"space-around"
+			],
+			[
+				"sp",
+				"space-around"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"menu",
+				"menu-empty"
+			],
+			[
+				"trans",
+				"transition-delay"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"justif",
+				"justify-items"
+			],
+			[
+				"grid-ro",
+				"grid-row-gap"
+			],
+			[
+				"grid",
+				"grid-gap"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"backgr",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/abstracts",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/base",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/layout",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/pages",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/themes",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/vendors"
+	],
+	"file_history":
+	[
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/water.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/index.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/main.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_menu_background.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/base/_typography.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_nav.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/work.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/_test.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/layout/_grid_full_height.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/css/work.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/layout/_grid_content.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/css/sass_shred.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/base/_base.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_ascii_abbreviation.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_ascii_frontpage.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/layout/_header.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_menu_button.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/layout/_grid.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/abstracts/_variables.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_work_menu.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_ascii_title.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_videozone.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_menu_empty.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/about.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_container_video.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_water_header.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_project_title.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/nexus.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/index.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/journal.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/nova.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/layout/_grid_section.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/pages/_about.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/pages/_nova.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/pages/_home.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_menu_background",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_ascii_header.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_button.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/abstracts/_functions.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_ascii_art.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/main.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_grid.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/css/sass.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_document.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_content.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/css/style.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/css/_test.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_menu.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_mobile.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/vendors/_normalize.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/stylesheets/README.md",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_links.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_page_specific.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_videos.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass/_document.haml",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/_test1.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/en/layouttest.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/en/work1.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/css/layouttest.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/en/nova - Copy.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/css/style.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/en/work.html",
+		"/C/Users/evanm/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
+		"/C/Users/evanm/AppData/Roaming/Thunderbird/profiles.ini",
+		"/C/Users/evanm/Desktop/_exports_reframed/rename_videos.bat",
+		"/C/Users/evanm/Desktop/rename_videos.bat",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/style.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/work.html",
+		"/C/Users/evanm/Documents/GitHub/nova/nova_models_win_12.json",
+		"/C/Users/evanm/Documents/GitHub/nova/nova_models_win_11.json",
+		"/C/Users/evanm/Documents/GitHub/nova/nova_models_win_09.json",
+		"/C/Users/evanm/Documents/GitHub/nova/nova_models_win_01.json",
+		"/C/Users/evanm/Documents/GitHub/nova/nova_models_win_08.json"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 218.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"menu-back",
+			"menu-background",
+			"space-evenly",
+			"main-grid",
+			"grid",
+			"rgba",
+			"font-size",
+			";",
+			"}",
+			"{",
+			"menu-btn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.521121936756,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "scgwebsite_experimental.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

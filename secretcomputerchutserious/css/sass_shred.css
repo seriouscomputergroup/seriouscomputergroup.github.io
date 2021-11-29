@@ -1,0 +1,259 @@
+/*********************************************/
+/* document                                  */
+/*********************************************/
+:root {
+  --menu-width: calc(5Em + 5vw);
+}
+
+* {
+
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  font-size: calc(1em + 1vw);
+}
+
+
+
+
+
+/*********************************************/
+/* page-specific text and bg styling         */
+/*********************************************/
+.about-bg {
+  background: #d5eaff;
+}
+
+.journal-bg {
+  background: #ffffff;
+}
+
+.about-text {
+  color: black;
+}
+
+.work-text {
+  color: white;
+}
+
+/*********************************************/
+/* menu                                      */
+/*********************************************/
+.header {
+  background-color: #eeddee;
+  opacity: 0.9;
+  height: 100vh;
+  width: var(--menu-width);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  z-index: 5;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* menu - hide h1 */
+h1 {
+  display: none;
+}
+
+/* menu - layout */
+/* menu - background to float over text in portrait mode */
+/* menu - hide h1 */
+/* menu - ascii */
+
+/* menu - navbar */
+nav {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*********************************************/
+/* grid layout                               */
+/*********************************************/
+.main-grid {
+  background-color: #ff00ff;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-pad {
+  padding-left: var(--menu-width);
+}
+
+.top-image {
+  height: 100vh;
+  background-color: #ffddff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*********************************************/
+/* content                                   */
+/*********************************************/
+.content-top {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: 0px; */
+}
+
+.content-work {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: 0px; */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+p {
+  max-width: 800px;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.videozone {
+  max-width: 800px;
+  width: 75vw;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#nova-article {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+#nova-article > section {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f00;
+}
+
+#nova-technical {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/*********************************************/
+/* links                                     */
+/*********************************************/
+
+
+.ascii-title > a, pre, li > a, .lang > div > a {
+  text-decoration: none;
+}
+
+li > a.work {
+  text-decoration: none;
+  color: #010101;
+}
+
+/*********************************************/
+/* ascii art                                 */
+/*********************************************/
+.ascii, .ascii-work {
+  font-family: source-code-pro, Menlo, Roboto Mono, Lucida Console, Consolas, Courier new, Courier, monospace;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.ascii-work {
+  color: #ffffff;
+}
+
+
+/* menu - ascii */
+
+
+
+
+
+/*********************************************/
+/* mobile                                    */
+/*********************************************/
+@media (max-width: 700px), (pointer: coarse) {
+  /* menu - layout */
+  .menu {
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*flex-direction: row;*/
+    /*justify-content: flex-start;*/
+    /*white-space: nowrap;*/
+    /*padding: 0px 16px;*/
+    /*margin: 1px 0px 0px 0px;*/
+  }
+
+  /*********************************************/
+  /* menu                                      */
+  /*********************************************/
+  /* menu - background to float over text in portrait mode */
+
+
+
+
+  /* menu - ascii */
+  .ascii-header {
+    display: inline-block;
+  }
+
+  /* content */
+  .content-top {
+    justify-content: flex-start;
+  }
+
+  .videozone {
+    padding-top: calc(20px + 4.3vw);
+    max-width: 93vw;
+    width: 93vw;
+  }
+
+  /* ascii */
+
+
+  .grid-pad {
+    padding: 0 1em;
+  }
+
+  /* videos */
+  .video-row {
+    display: grid;
+    grid-template-columns: 0px auto;
+  }
+}
+
+/*# sourceMappingURL=sass.css.map */
