@@ -14,16 +14,16 @@
 	font-size: 2em;
 	text-transform: uppercase;
 	text-align: center;
-	box-sizing: content-box;
+	// box-sizing: content-box;
 }
 
 .work-menu > a {
-	padding: 0.3em;
+	padding: 0.5rem 1rem;
 	/*display: flex;*/
 	/*flex-direction: column;*/
 	/*justify-content: center;*/
 	/*align-items: centre;*/
-	width: 95%;
+	width: 100%;
 	/*min-width: 50%;*/
 	text-decoration: none;
 	/*height: 500px;*/
