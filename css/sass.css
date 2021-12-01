@@ -936,6 +936,13 @@ article {
     margin-bottom: 2vw;
   }
 }
+#header-nexus {
+  z-index: 1;
+  height: 100vh;
+  background: url("../img/nexus.png");
+  background-size: cover;
+}
+
 .work-bg {
   background: #131416;
 }
