@@ -3,25 +3,29 @@
 <head>
 	<title>Serious Computer Group</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Serious Computer Group is the duo of Nina Bouchard and Evan Montpellier.">
 	<!-- styles -->
-	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./css/sass.css">
 	<script src="https://use.edgefonts.net/source-code-pro:n2,n3,n4,n5,n6,n7,n9:all.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet"> 
 
 	<!-- favicon -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#333333">
+	<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+	<link rel="manifest" href="./site.webmanifest">
+	<link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#333333">
 	<meta name="msapplication-TileColor" content="#2b5797">
 	<meta name="theme-color" content="#ffffff">
 </head>
+
 <body class="about-bg">
-<div class="menu about-text">
+
+<!-- menu bar -->
+<header class="header">
 	<h1>Serious Computer Group</h1>
+	<div class="menu-empty"></div>
 	<div id="ascii-abbreviation">
 		<a href="./index.html">
 		<pre class="ascii ascii-header">
@@ -29,7 +33,7 @@
 ╙─╖║  ║ ╖
 ╶─╜╙─╴╙─╜
 </pre>
-</a>
+		</a>
 	</div>
 	<div class="ascii-title">
 		<a href="./index.html">
@@ -49,70 +53,77 @@
 ║ ╖╟╨╖║ ║║ ║╟─╜
 ╙─╜╙ ╙╙─╜╙─╜╙  
 </pre>
-	</a>
+		</a>
 	</div>
-	<nav>
-		<ul>
-			<li><a href="./about.html" class="">About</a></li>
-			<li><a href="./work.html" class="">Work</a></li>
-			<li><a href="./journal.html" class="">Journal</a></li>
+	<input class="menu-btn" type="checkbox" id="menu-btn" autocomplete="off"/>
+  <label class="menu-icon" for="menu-btn">&#x2261</label>
+		<ul class="menu">
+			<li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+			<li class="nav-item"><a href="./work.html" class="nav-link">Work</a ></li>
+			<li class="nav-item"><a href="./journal.html" class="nav-link">Journal</a></li>
+			<!-- <li class="nav-item">EN / <a href="./fr/index.html"  class="nav-link">FR</a></li> -->
 		</ul>
-	</nav>
-</div>
-<div class="main-grid about-text">
-	<main class="content-top">
-		<div class="ascii-frontpage">
-			<pre class="ascii" id="ascii-frontpage-1">
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-</pre>
-			<pre class="ascii" id="ascii-frontpage-2">
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-</pre>
-<pre class="ascii" id="ascii-frontpage-3">
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-</pre>
-		</div>
-		<div class="frontpage-text">
-			<p><strong>Serious Computer Group</strong> is the duo of <a href="http://ninabouchard.com/">Nina Bouchard</a> and <a href="https://evanmontpellier.net/">Evan Montpellier</a>.</p>
+</header>
+<div class="menu-background"></div>
 
-			<p>Founded in 2018 and based in Montreal, SCG works across a range of physical and digital disciplines, including interactive installation, photography and filmmaking, programming and electronics, sound and video art.</p>
+<!-- main content -->
 
-			<p>SCG's goal is to synthesize its diverse practices into novel hybrid aesthetic languages, balancing formal experimentation with an accessible sensibility and an appreciation for  narrative.</p>
+<div class="main-grid">
+		<div class="grid-pad grid-full-height">
+			<div class="frontpage-content">
+			<div class="ascii-frontpage">
+				<pre class="ascii" id="ascii-frontpage-1">
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+</pre>
+				<pre class="ascii" id="ascii-frontpage-2">
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+</pre>
+				<pre class="ascii" id="ascii-frontpage-3">
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+</pre>
+			</div>
+			<article class="content-text">
+				<p><strong>Serious Computer Group</strong> is the duo of <a href="http://ninabouchard.com/">Nina Bouchard</a> and <a href="https://evanmontpellier.net/">Evan Montpellier</a>.</p>
+
+				<p>Founded in 2018 and based in Montreal, SCG works across a range of physical and digital disciplines, including interactive installation, photography and filmmaking, programming and electronics, sound and video art.</p>
+
+				<p>SCG's goal is to synthesize its diverse practices into novel hybrid aesthetic languages, balancing formal experimentation with an accessible sensibility and an appreciation for narrative.</p>
+			</article>
 		</div>
-	</main>
+	</div>
 </div>
 </body>
 </html>

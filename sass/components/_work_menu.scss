@@ -1,0 +1,70 @@
+.work-menu {
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	display: grid;
+	font-size: 2em;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+.work-menu > a {
+	padding: 0.5rem 1rem;
+	width: 100%;
+	text-decoration: none;
+	@include respond-to ('medium') {
+		width: 60%;
+		min-width: 40rem;
+	}
+}
+
+.work-menu a div {
+	height: 100%;
+}
+
+/* link text */
+.work-link {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 2s;
+}
+
+/* link hover gradient animation */
+.link-bg {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+	background: linear-gradient(to right, #30CFFF 0%, #FF0867 25%, #30CFFF 50%, #FF0867 75%, #30CFFF 100%);
+	background-size: 200% 200%;
+	-webkit-background-clip: text;
+	text-decoration: none;
+	transition: color 2s;
+	color: inherit;
+	animation: frontpage-gradient 20s linear infinite;
+}
+
+// /* fade link background image */
+.work-link:hover{
+	background-color: rgba(1, 1, 1, 0.4);
+}
+
+/* background images for links*/
+#work-nova {
+	background-image: url("../img/nova.png");
+	background-size: cover;
+}
+
+#work-nexus {
+	background-image: url("../img/nexus.png");
+	background-size: cover;
+}
+
+#work-water {
+	background-image: url("../img/water_3.png");
+	background-size: cover;
+}

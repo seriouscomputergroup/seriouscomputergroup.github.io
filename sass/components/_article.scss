@@ -1,0 +1,7 @@
+article {
+	width: 100%;
+	@include respond-to ('medium') {
+		width: 60%;
+		min-width: 30rem;
+	}
+}
