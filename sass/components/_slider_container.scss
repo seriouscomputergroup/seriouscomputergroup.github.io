@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the container for the video slider.
+// -----------------------------------------------------------------------------
+
+.slider-container {
+  padding-left: 0;
+  padding-top: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  // align-items: center;
+  justify-content: center;
+  @include respond-to ('medium') {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: $menu-width;
+    padding-top: 0;
+  }
+}

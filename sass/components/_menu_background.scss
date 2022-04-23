@@ -5,7 +5,9 @@
 
 .menu-background {
 	display: block;
-	position: fixed;
+	position: sticky;
+	top: 0px;
+	z-index: 3;
 	width: 100%;
 	height: $menu-height;
 	

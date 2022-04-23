@@ -107,6 +107,197 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"redo_stack":
+			[
+				[
+					26,
+					1,
+					"close_tag",
+					{
+						"insert_slash": true
+					},
+					"AQAAALcUAAAAAAAAtxQAAAAAAAADAAAAL3A+",
+					"AQAAAAAAAAABAAAAuhQAAAAAAAC6FAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "est<"
+					},
+					"BAAAALYUAAAAAAAAthQAAAAAAAABAAAAPLUUAAAAAAAAtRQAAAAAAAABAAAAdLQUAAAAAAAAtBQAAAAAAAABAAAAc7MUAAAAAAAAsxQAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAtxQAAAAAAAC3FAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "\n\n<p>t"
+					},
+					"CQAAALIUAAAAAAAAshQAAAAAAAABAAAAdLEUAAAAAAAAsRQAAAAAAAABAAAAPrAUAAAAAAAAsBQAAAAAAAABAAAAcK8UAAAAAAAArxQAAAAAAAABAAAAPKkUAAAAAAAArhQAAAAAAAAAAAAArxQAAAAAAACvFAAAAAAAAAUAAAAJCQkJCa4UAAAAAAAArhQAAAAAAAABAAAACqkUAAAAAAAAqRQAAAAAAAAFAAAACQkJCQmoFAAAAAAAAKgUAAAAAAAAAQAAAAo",
+					"AQAAAAAAAAABAAAAsxQAAAAAAACzFAAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 5344,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "nova.html",
+			"settings":
+			{
+				"buffer_size": 9166,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"swap_line_up",
+					null,
+					"AgAAANcPAAAAAAAA1w8AAAAAAAAiAAAACQkJCTxzZWN0aW9uIGlkPSJub3ZhLXRlY2huaWNhbCI+CsgPAAAAAAAA6g8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6w8AAAAAAADrDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"swap_line_down",
+					null,
+					"AgAAAPkPAAAAAAAAGxAAAAAAAAAAAAAAyA8AAAAAAADIDwAAAAAAACIAAAAJCQkJPHNlY3Rpb24gaWQ9Im5vdmEtdGVjaG5pY2FsIj4K",
+					"AQAAAAAAAAABAAAA3A8AAAAAAADcDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "were"
+					},
+					"BQAAABcWAAAAAAAAGBYAAAAAAAAAAAAAGBYAAAAAAAAYFgAAAAAAAAcAAAB3aWxsIGJlGBYAAAAAAAAZFgAAAAAAAAAAAAAZFgAAAAAAABoWAAAAAAAAAAAAABoWAAAAAAAAGxYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHhYAAAAAAAAXFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHQZAAAAAAAAdBkAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAAdRkAAAAAAAB1GQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "ed"
+					},
+					"AgAAAHQZAAAAAAAAdRkAAAAAAAAAAAAAdRkAAAAAAAB2GQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdBkAAAAAAAB0GQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"insert",
+					{
+						"characters": "ed"
+					},
+					"AgAAADAaAAAAAAAAMRoAAAAAAAAAAAAAMRoAAAAAAAAyGgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMBoAAAAAAAAwGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAMcPAAAAAAAAyA8AAAAAAAAAAAAAyA8AAAAAAADNDwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxw8AAAAAAADHDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"paste",
+					null,
+					"AQAAAM0PAAAAAAAAxRAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzQ8AAAAAAADNDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					69,
+					1,
+					"paste",
+					null,
+					"AQAAAM0PAAAAAAAA6g8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzQ8AAAAAAADNDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"BAAAAOoPAAAAAAAA6w8AAAAAAAAAAAAA6w8AAAAAAADwDwAAAAAAAAAAAADrDwAAAAAAAOsPAAAAAAAABQAAAAkJCQkJ6w8AAAAAAADxDwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6g8AAAAAAADqDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					74,
+					1,
+					"insert",
+					{
+						"characters": "\n<"
+					},
+					"AwAAAOkQAAAAAAAA6hAAAAAAAAAAAAAA6hAAAAAAAADwEAAAAAAAAAAAAADwEAAAAAAAAPEQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6RAAAAAAAADpEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					1,
+					"close_tag",
+					{
+						"insert_slash": true
+					},
+					"AwAAAPEQAAAAAAAA9hAAAAAAAAAAAAAA6hAAAAAAAADqEAAAAAAAAAYAAAAJCQkJCQnqEAAAAAAAAO8QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8RAAAAAAAADxEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPkPAAAAAAAA+Q8AAAAAAAAYAAAAd2lkdGg9IjU2MCIgaGVpZ2h0PSIzMTUi",
+					"AQAAAAAAAAABAAAA+Q8AAAAAAAAREAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					86,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPkPAAAAAAAA+Q8AAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAA+g8AAAAAAAD6DwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					102,
+					1,
+					"paste",
+					null,
+					"AgAAAP4PAAAAAAAAJxAAAAAAAAAAAAAAJxAAAAAAAAAnEAAAAAAAACkAAABodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9nM0R0cGhPV0Uzbw",
+					"AQAAAAAAAAABAAAA/g8AAAAAAAAnEAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -168,17 +359,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/css",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/abstracts",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/base",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/layout",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/pages",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/themes",
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/vendors"
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io"
 	],
 	"file_history":
 	[
@@ -305,6 +486,69 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4991,
+								4991
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2835.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "nova.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4651,
+								4651
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2440.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -315,7 +559,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -359,7 +603,7 @@
 	"project": "scgwebsite_experimental.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -1,0 +1,75 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to parallax sections.
+// -----------------------------------------------------------------------------
+
+main {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+section {
+  transform-style: preserve-3d;
+  position: relative;
+  // height: 100vh;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // color: white;
+}
+
+.no-parallax {
+  background-color: $work-bg-color;
+  z-index: 1;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+
+.parallax h1 {
+  width: 60%;
+  font-size: 2rem;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-6px) scale(3);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.bg1 {
+  height: 400px;
+}
+
+.bg1::after {
+  background: url("../img/nova_parallax_01.png");
+  background-size: cover;
+}
+
+.bg2 {
+  height: 600px;
+}
+
+.bg2::after {
+  background: url("../img/nova_parallax_02.png");
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  section h1 {
+    font-size: 8rem;
+  }
+  .parallax h1 {
+    font-size: 4rem;
+  }
+}

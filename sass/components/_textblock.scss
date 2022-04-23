@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to styling text blocks (groups of
+// paragraphs.
+// -----------------------------------------------------------------------------
+
+.textblock {
+  margin: 5rem 0;
+  width: 100%;
+  @include respond-to ('medium') {
+    width: 60%;
+    min-width: 30rem;
+  }
+}

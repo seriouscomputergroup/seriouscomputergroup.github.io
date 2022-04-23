@@ -25,7 +25,8 @@
   'layout/grid_flex_container',
   'layout/grid_full_height',
   'layout/grid_content',
-  'layout/grid_section';
+  'layout/grid_section',
+  'layout/wrapper';
 
 // 5. Components
 @import
@@ -34,12 +35,20 @@
   'components/ascii_frontpage',
   'components/ascii_header',
   'components/ascii_title',
+  'components/container_parallax',
   'components/container_video',
+  'components/iframe',
   'components/menu_button',
   'components/menu_background',
   'components/menu_empty',
   'components/nav',
+  'components/paragraph',
+  'components/parallax_section',
+  'components/parallax_sections',
   'components/project_title',
+  'components/slider_container',
+  'components/textblock',
+  'components/video_slider',
   'components/videozone',
   'components/water_header',
   'components/work_menu';

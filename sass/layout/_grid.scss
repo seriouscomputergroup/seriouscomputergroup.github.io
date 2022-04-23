@@ -6,6 +6,8 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
+  perspective: 8px;
+
 }
 
 .main-grid-one-screen {
