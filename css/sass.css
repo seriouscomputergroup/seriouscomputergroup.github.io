@@ -818,7 +818,7 @@ section h1 {
   right: 0;
   bottom: 0;
   left: 0;
-  transform: translateZ(-6px) scale(3);
+  transform: translateZ(-2px) scale(2);
   background-size: 100%;
   z-index: -1;
 }
@@ -830,6 +830,7 @@ section h1 {
 .bg1::after {
   background: url("../img/nova_parallax_01.png");
   background-size: cover;
+  bottom: 5vh;
 }
 
 .bg2 {
@@ -839,6 +840,7 @@ section h1 {
 .bg2::after {
   background: url("../img/nova_parallax_02.png");
   background-size: cover;
+  top: 15vh;
 }
 
 @media screen and (min-width: 768px) {
@@ -1295,7 +1297,7 @@ video {
 #header-nexus {
   z-index: 1;
   height: 100vh;
-  background: url("./img/nexus.png");
+  background: url("../img/nexus.png");
   background-size: cover;
 }
 
