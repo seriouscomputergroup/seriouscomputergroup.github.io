@@ -12,6 +12,7 @@
 	height: 70vw;
 	// padding-top: 56.25%;
 	position: relative;
+	top: -1px;
 	// margin: 0px 16px 16px 0px;
 	@include respond-to ('medium') {
 		height: 42vw;

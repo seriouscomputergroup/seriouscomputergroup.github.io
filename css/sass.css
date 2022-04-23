@@ -573,6 +573,8 @@ ul {
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
+  position: relative;
+  top: 1px;
 }
 
 .content-text p {
@@ -690,6 +692,7 @@ article {
   overflow: hidden;
   height: 70vw;
   position: relative;
+  top: -1px;
 }
 @media (min-width: 768px) {
   .container-video {
