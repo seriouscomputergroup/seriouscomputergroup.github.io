@@ -6,9 +6,12 @@
 .project-title {
 	color: #fff;
 	position: absolute;
-	bottom: 16px;
-	right: 20px;
+	bottom: 2em;
+	right: 0.5em;
 	font-size: 2em;
 	text-transform: uppercase;
 	z-index: 3;
+	@include respond-to ('medium') {
+		bottom: 16px;
+	}
 }
