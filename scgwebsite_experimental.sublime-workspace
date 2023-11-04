@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
-				"menu-",
-				"menu-background"
+				"st",
+				"sticky"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
 			],
 			[
 				"back",
 				"background-color"
 			],
 			[
-				"bac",
-				"background-color"
+				"pa",
+				"parallax"
+			],
+			[
+				"cont",
+				"container-video"
+			],
+			[
+				"menu-",
+				"menu-background"
 			],
 			[
 				"jus",
@@ -84,10 +100,6 @@
 				"flex-direction"
 			],
 			[
-				"ba",
-				"background-size"
-			],
-			[
 				"text-",
 				"text-transform"
 			],
@@ -107,197 +119,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"redo_stack":
-			[
-				[
-					26,
-					1,
-					"close_tag",
-					{
-						"insert_slash": true
-					},
-					"AQAAALcUAAAAAAAAtxQAAAAAAAADAAAAL3A+",
-					"AQAAAAAAAAABAAAAuhQAAAAAAAC6FAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					25,
-					1,
-					"insert",
-					{
-						"characters": "est<"
-					},
-					"BAAAALYUAAAAAAAAthQAAAAAAAABAAAAPLUUAAAAAAAAtRQAAAAAAAABAAAAdLQUAAAAAAAAtBQAAAAAAAABAAAAc7MUAAAAAAAAsxQAAAAAAAABAAAAZQ",
-					"AQAAAAAAAAABAAAAtxQAAAAAAAC3FAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					24,
-					1,
-					"insert",
-					{
-						"characters": "\n\n<p>t"
-					},
-					"CQAAALIUAAAAAAAAshQAAAAAAAABAAAAdLEUAAAAAAAAsRQAAAAAAAABAAAAPrAUAAAAAAAAsBQAAAAAAAABAAAAcK8UAAAAAAAArxQAAAAAAAABAAAAPKkUAAAAAAAArhQAAAAAAAAAAAAArxQAAAAAAACvFAAAAAAAAAUAAAAJCQkJCa4UAAAAAAAArhQAAAAAAAABAAAACqkUAAAAAAAAqRQAAAAAAAAFAAAACQkJCQmoFAAAAAAAAKgUAAAAAAAAAQAAAAo",
-					"AQAAAAAAAAABAAAAsxQAAAAAAACzFAAAAAAAAAAAAAAAAPC/"
-				]
-			],
-			"settings":
-			{
-				"buffer_size": 5344,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-			]
-		},
-		{
-			"file": "nova.html",
-			"settings":
-			{
-				"buffer_size": 9166,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					3,
-					1,
-					"swap_line_up",
-					null,
-					"AgAAANcPAAAAAAAA1w8AAAAAAAAiAAAACQkJCTxzZWN0aW9uIGlkPSJub3ZhLXRlY2huaWNhbCI+CsgPAAAAAAAA6g8AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA6w8AAAAAAADrDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					4,
-					1,
-					"swap_line_down",
-					null,
-					"AgAAAPkPAAAAAAAAGxAAAAAAAAAAAAAAyA8AAAAAAADIDwAAAAAAACIAAAAJCQkJPHNlY3Rpb24gaWQ9Im5vdmEtdGVjaG5pY2FsIj4K",
-					"AQAAAAAAAAABAAAA3A8AAAAAAADcDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"insert",
-					{
-						"characters": "were"
-					},
-					"BQAAABcWAAAAAAAAGBYAAAAAAAAAAAAAGBYAAAAAAAAYFgAAAAAAAAcAAAB3aWxsIGJlGBYAAAAAAAAZFgAAAAAAAAAAAAAZFgAAAAAAABoWAAAAAAAAAAAAABoWAAAAAAAAGxYAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAHhYAAAAAAAAXFgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					36,
-					1,
-					"left_delete",
-					null,
-					"AQAAAHQZAAAAAAAAdBkAAAAAAAABAAAAcw",
-					"AQAAAAAAAAABAAAAdRkAAAAAAAB1GQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					37,
-					1,
-					"insert",
-					{
-						"characters": "ed"
-					},
-					"AgAAAHQZAAAAAAAAdRkAAAAAAAAAAAAAdRkAAAAAAAB2GQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdBkAAAAAAAB0GQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					46,
-					1,
-					"insert",
-					{
-						"characters": "ed"
-					},
-					"AgAAADAaAAAAAAAAMRoAAAAAAAAAAAAAMRoAAAAAAAAyGgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAMBoAAAAAAAAwGgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					60,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAMcPAAAAAAAAyA8AAAAAAAAAAAAAyA8AAAAAAADNDwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAxw8AAAAAAADHDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					63,
-					1,
-					"paste",
-					null,
-					"AQAAAM0PAAAAAAAAxRAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAzQ8AAAAAAADNDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					69,
-					1,
-					"paste",
-					null,
-					"AQAAAM0PAAAAAAAA6g8AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAzQ8AAAAAAADNDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					70,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"BAAAAOoPAAAAAAAA6w8AAAAAAAAAAAAA6w8AAAAAAADwDwAAAAAAAAAAAADrDwAAAAAAAOsPAAAAAAAABQAAAAkJCQkJ6w8AAAAAAADxDwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA6g8AAAAAAADqDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					74,
-					1,
-					"insert",
-					{
-						"characters": "\n<"
-					},
-					"AwAAAOkQAAAAAAAA6hAAAAAAAAAAAAAA6hAAAAAAAADwEAAAAAAAAAAAAADwEAAAAAAAAPEQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA6RAAAAAAAADpEAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					75,
-					1,
-					"close_tag",
-					{
-						"insert_slash": true
-					},
-					"AwAAAPEQAAAAAAAA9hAAAAAAAAAAAAAA6hAAAAAAAADqEAAAAAAAAAYAAAAJCQkJCQnqEAAAAAAAAO8QAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA8RAAAAAAAADxEAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					84,
-					1,
-					"left_delete",
-					null,
-					"AQAAAPkPAAAAAAAA+Q8AAAAAAAAYAAAAd2lkdGg9IjU2MCIgaGVpZ2h0PSIzMTUi",
-					"AQAAAAAAAAABAAAA+Q8AAAAAAAAREAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					86,
-					1,
-					"left_delete",
-					null,
-					"AQAAAPkPAAAAAAAA+Q8AAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAA+g8AAAAAAAD6DwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					102,
-					1,
-					"paste",
-					null,
-					"AgAAAP4PAAAAAAAAJxAAAAAAAAAAAAAAJxAAAAAAAAAnEAAAAAAAACkAAABodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9nM0R0cGhPV0Uzbw",
-					"AQAAAAAAAAABAAAA/g8AAAAAAAAnEAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -310,6 +131,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sscss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
 			[
 				"scss",
 				"Set Syntax: SCSS"
@@ -359,12 +200,62 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io"
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/abstracts",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/base",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/layout",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/pages",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/themes",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/video"
 	],
 	"file_history":
 	[
-		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/water.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_container_video.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_parallax_section.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/layout/_grid.scss",
+		"/C/Users/evanm/Documents/GitHub/glyph/_drawings/2022-07-07/dots.html",
+		"/C/Users/evanm/Documents/GitHub/glyph/_drawings/2022-07-07/after_de_vries.html",
+		"/C/Users/evanm/Documents/GitHub/glyph/_drawings/2021-11-22a/index.html",
+		"/C/Users/evanm/Documents/GitHub/glyph/_drawings/2021-11-22a/styles.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/nova.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_menu_background.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/deluge.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/nexus.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/pages/_nexus.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_article.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_video_slider.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_slider_container.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_parallax_sections.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/layout/_grid_content.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/layout/_grid_section.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/abstracts/_variables.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/main.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_container_parallax.scss",
+		"/C/Users/evanm/Documents/GitHub/glyph/_drawings/2022-07-07/after_claire.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/nova_parallax.html",
+		"/C/Users/evanm/Downloads/_Nettime_Bold_redux/Nettime_redux/index.html",
+		"/C/Users/evanm/Downloads/emusic-l.log9802a",
+		"/C/Users/evanm/Documents/GitHub/glyph/_drawings/2021-11-16/index.html",
+		"/C/Users/evanm/Documents/GitHub/glyph/_drawings/2021-11-16b/index.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_textblock.scss",
+		"/C/Users/evanm/Downloads/LY plotter 新使用说明--不支持激光写字机-舵机反/LY plotter µû░Σ╜┐τö¿Φ»┤µÿÄ--Σ╕ìµö»µîüµ┐ÇσàëσåÖσ¡ùµ£║-Φê╡µ£║σÅì/B Basic tutorials/step 3/output_0001.gcode",
+		"/C/Users/evanm/Documents/GitHub/drawbot_max/drawbot_collision_check.js",
+		"/C/Users/evanm/Downloads/Museum of Witchcraft/Museum of Witchcraft/museumofwitchcraftandmagic.co.uk/richel/r144-drawing-of-three-hands-one-made-of-reeds-raised-on-a-stick/index.html",
+		"/C/Users/evanm/Downloads/_Nettime_Bold_redux/Nettime_redux/nettime.org/Lists-Archives/nettime-ann-0509/msg00009.html",
+		"/C/Users/evanm/Downloads/_Nettime_Bold_redux/Nettime_redux/nettime.org/Lists-Archives/nettime-bold-0008/threads.html",
+		"/C/Users/evanm/Downloads/_Nettime_Bold/Nettime_Bold/nettime.org/Lists-Archives/nettime-ro-0611/threads.html",
+		"/C/Users/evanm/Downloads/_Nettime_Bold/Nettime_Bold/nettime.org/index.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/about.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/layout/_header.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/layout/_wrapper.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_paragraph.scss",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/sass/components/_iframe.scss",
 		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/index.html",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io/css/sass.css",
+		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/en/water.html",
 		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/main.scss",
 		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/components/_menu_background.scss",
 		"/C/Users/evanm/Documents/GitHub/seriouscomputergroup.github.io_experimental/sass-7in1/base/_typography.scss",
@@ -439,7 +330,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -454,6 +345,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".",
+			"•",
+			".",
+			"work-bg-color",
+			"Margin",
+			"goto-firSt",
+			"arrows",
+			"height",
+			"#f",
+			"margin-left",
+			"p {",
+			"main",
 			"menu-back",
 			"menu-background",
 			"space-evenly",
@@ -469,7 +372,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 		],
@@ -486,69 +389,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4991,
-								4991
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2835.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "nova.html",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9166,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4651,
-								4651
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2440.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -559,7 +399,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -585,7 +425,7 @@
 		"cols":
 		[
 			0.0,
-			0.521121936756,
+			0.538003646518,
 			1.0
 		],
 		"rows":
@@ -603,7 +443,7 @@
 	"project": "scgwebsite_experimental.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -633,7 +473,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -641,7 +481,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 262.0,
+	"side_bar_width": 371.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

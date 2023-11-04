@@ -405,7 +405,7 @@ body {
  * Basic typography style for ASCII
  */
 pre {
-  font-family: "Comic Sans", "source-code-pro", "Menlo", "Roboto Mono", "Lucida Console", "Consolas", "Courier new", "Courier", monospace;
+  font-family: "Source Code Pro", "Menlo", "Roboto Mono", "Lucida Console", "Consolas", "Courier new", "Courier", monospace;
   font-weight: 500;
   line-height: 100%;
 }
