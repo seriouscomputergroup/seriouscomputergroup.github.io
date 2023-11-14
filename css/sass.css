@@ -1323,4 +1323,13 @@ video {
   background-color: #131416;
 }
 
+.work-page {
+  height: 90vh;
+}
+@media (min-width: 768px) {
+  .work-page {
+    height: 100vh;
+  }
+}
+
 /*# sourceMappingURL=sass.css.map */

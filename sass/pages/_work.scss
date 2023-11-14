@@ -1,0 +1,6 @@
+.work-page {
+    height: 90vh;
+    @include respond-to('medium') {
+        height: 100vh;
+    }
+}
